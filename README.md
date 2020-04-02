@@ -1,2 +1,2 @@
 # login-Bot
-Logs into a  specific webiste
+Logs into a  specific webistes, on chrome
