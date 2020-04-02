@@ -11,7 +11,7 @@ passwordStr = os.environ.get('botPass')
 browser = webdriver.Chrome()
 
 # the website we are trying to log into
-browser.get(("https://auth.dadeschools.net/_auth/dsLogon.aspx?ru=aHR0cDovL21kY3BzcG9ydGFsLmRhZGVzY2hvb2xzLm5ldC8="))
+browser.get(os.environ.get('botWebsite'))
 
 # finding the login box on the website and entering our usename
 username = browser.find_element_by_id('txtUsername')
